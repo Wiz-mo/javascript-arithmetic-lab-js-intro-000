@@ -21,3 +21,14 @@ function increment(n) {
 function decrement(n) {
   return --n
 }
+
+function makeInt(n) {
+  ParseInt(n, 10)
+  return n
+}
+
+function preserveDecimal(n) {
+  ParseFloat(n) 
+  return n
+}
+
